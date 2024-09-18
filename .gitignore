@@ -40,3 +40,5 @@ next-env.d.ts
 # Code editor
 .idea/
 
+#package manager
+pnpm-lock.yaml
