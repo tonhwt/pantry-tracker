@@ -7,7 +7,7 @@ import { ItemDto } from "@/use-cases/items/types";
 
 export type ItemId = number;
 
-export function toDtoMapper(item: Item) {
+export function toDtoMapper(item: Item): ItemDto {
   return {
     id: item.id,
     name: item.name,
